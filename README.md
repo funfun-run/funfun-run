@@ -8,7 +8,7 @@
 
 A developer passionate about **robotics**, **artificial intelligence**, and building systems that bridge the digital and physical worlds.
 
-Currently exploring **ROS2 navigation**, **computer vision**, and **intelligent scoring systems**.
+Currently exploring **ROS2 navigation**, **embodied artificial intelligence**, and **computer vision**.
 
 </div>
 
@@ -56,18 +56,18 @@ Currently exploring **ROS2 navigation**, **computer vision**, and **intelligent 
 <table>
   <tr>
     <td width="50%">
-      <a href="https://github.com/funfun-run/dance-scoring-system">
-        <strong>🎵 Dance Scoring System</strong>
+      <a href="https://github.com/funfun-run/AT_Atlas_nav_ws">
+        <strong>🤖 AT Atlas Navigation</strong>
       </a>
       <br/>
-      <sub>AI-powered dance evaluation with beat detection & real-time scoring</sub>
+      <sub>ROS2 navigation workspace for Atlas robot — autonomous planning & control</sub>
     </td>
     <td width="50%">
-      <a href="https://github.com/funfun-run/ros-map-text">
-        <strong>🗺️ ROS2 Semantic Map Tools</strong>
+      <a href="https://github.com/funfun-run/agt_navigation_stack">
+        <strong>🧭 AGT Navigation Stack</strong>
       </a>
       <br/>
-      <sub>Semantic map GUI & navigation tools for ROS2 robotics</sub>
+      <sub>Modular navigation stack with path planning, localization & obstacle avoidance</sub>
     </td>
   </tr>
 </table>
