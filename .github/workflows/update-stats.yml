@@ -1,0 +1,39 @@
+name: Update GitHub Stats
+
+on:
+  schedule:
+    - cron: '0 0 * * *'   # daily at midnight UTC
+  workflow_dispatch:        # allow manual trigger
+  push:
+    branches: [main]
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download stats card
+        run: |
+          mkdir -p assets
+          curl -s -o assets/stats.svg \
+            "https://github-readme-stats.vercel.app/api?username=funfun-run&show_icons=true&theme=transparent&hide_border=true&title_color=3B82F6&icon_color=3B82F6&text_color=6B7280&rank_icon=github"
+
+      - name: Download top languages card
+        run: |
+          curl -s -o assets/langs.svg \
+            "https://github-readme-stats.vercel.app/api/top-langs/?username=funfun-run&layout=compact&theme=transparent&hide_border=true&title_color=3B82F6&text_color=6B7280"
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "📊 Auto-update GitHub stats"
+            git push
+          fi

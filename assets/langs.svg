@@ -1,0 +1,6 @@
+<svg width="400" height="160" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="160" fill="transparent"/>
+  <text x="200" y="80" text-anchor="middle" font-family="Arial" font-size="14" fill="#6B7280">
+    📊 Top Languages — loading...
+  </text>
+</svg>

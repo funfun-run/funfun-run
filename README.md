@@ -41,9 +41,9 @@ Currently exploring **ROS2 navigation**, **embodied artificial intelligence**, a
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=funfun-run&show_icons=true&theme=transparent&hide_border=true&title_color=3B82F6&icon_color=3B82F6&text_color=6B7280&rank_icon=github" />
+<img height="160" src="assets/stats.svg" />
 
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=funfun-run&layout=compact&theme=transparent&hide_border=true&title_color=3B82F6&text_color=6B7280" />
+<img height="160" src="assets/langs.svg" />
 
 </div>
 
