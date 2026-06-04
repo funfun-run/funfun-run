@@ -81,7 +81,7 @@ Currently exploring **ROS2 navigation**, **computer vision**, and **intelligent 
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/funfun-run)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:funfun-run@outlook.com)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:1219921425@qq.com)
 
 </div>
 
